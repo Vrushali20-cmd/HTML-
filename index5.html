@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Job Application</h2>
+<body>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+
+        <label for="phone">Phone</label>
+        <br>
+        <input type="text" name="phone" id="phone">
+        <br>
+
+        <label for="file">Resume</label>
+        <br>
+        <input type="file" name="file" id="file">
+        <br>
+ 
+        <label for="counter">Experience(in years)</label>
+        <br>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="check1">HTML</label>
+            <br>
+            <input type="checkbox" name="check1" id="check1">
+            <br>
+
+            <label for="check1">CSS</label>
+            <br>
+            <input type="checkbox" name="check1" id="check1">
+            <br>
+
+            <label for="check1">JAVASCRIPT</label>
+            <br>
+            <input type="checkbox" name="check1" id="check1">
+            <br>
+        </fieldset>
+            <label for="highest">Highest Educatiom</label>
+            <select name="highest" id="highest">
+            <option value="high school">High School</option>
+            <option value="bachleors">Bachleors</option>
+            <option value="Master">Masters</option>
+            <option value="others">others</option>
+        </select>
+        <br>
+        <fieldset>
+        <legend>Availablity</legend>
+        <label for="available">Full Time</label>
+        <br>
+        <input type="radio" name="available" id="available">
+<br>
+         <label for="available">Part Time</label>
+         <br>
+        <input type="radio" name="available" id="available">
+        </fieldset>
+<label for="textarea1">Additional Comments</label>
+<br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+        
+        <button>submit application</button>
+    </form>
+</body>
+</html>
